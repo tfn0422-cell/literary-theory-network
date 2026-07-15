@@ -1,0 +1,4493 @@
+{
+  "nodes": [
+    {
+      "id": "modernity_crisis",
+      "label": "现代性危机",
+      "cohort": "C0",
+      "category": "problem",
+      "description": "传统权威、统一主体与经验连续性受到冲击，构成二十世纪文论持续回应的总问题。",
+      "theorists": "尼采、韦伯、齐美尔",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.01505,
+        "closeness": 0.261,
+        "eigenvector": 0.02959,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.080875,
+          "y": 0.842071
+        },
+        "force": {
+          "x": 0.294292,
+          "y": 0.55144
+        }
+      }
+    },
+    {
+      "id": "unconscious",
+      "label": "无意识",
+      "cohort": "C0",
+      "category": "concept",
+      "description": "主体并不透明，欲望、压抑、症候与梦参与意义生产。",
+      "theorists": "弗洛伊德",
+      "dictionary": true,
+      "aliases": "psychoanalysis",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 4,
+        "betweenness": 0.00472,
+        "closeness": 0.27301,
+        "eigenvector": 0.03116,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.067725,
+          "y": 0.740963
+        },
+        "force": {
+          "x": 0.400795,
+          "y": 0.493305
+        }
+      }
+    },
+    {
+      "id": "sign_system",
+      "label": "符号系统",
+      "cohort": "C0",
+      "category": "concept",
+      "description": "语言意义来自符号之间的差异关系，而非名称与对象的直接对应。",
+      "theorists": "索绪尔",
+      "dictionary": true,
+      "aliases": "sign; langue/parole",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 9,
+        "betweenness": 0.00239,
+        "closeness": 0.25948,
+        "eigenvector": 0.05987,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.067625,
+          "y": 0.240221
+        },
+        "force": {
+          "x": 0.242689,
+          "y": 0.230533
+        }
+      }
+    },
+    {
+      "id": "genealogy",
+      "label": "谱系学／价值批判",
+      "cohort": "C0",
+      "category": "method",
+      "description": "追问价值、概念与制度如何在历史斗争和权力关系中生成。",
+      "theorists": "尼采",
+      "dictionary": true,
+      "aliases": "genealogical criticism",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 6,
+        "betweenness": 0.0,
+        "closeness": 0.2507,
+        "eigenvector": 0.10192,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.086375,
+          "y": 0.527307
+        },
+        "force": {
+          "x": 0.753648,
+          "y": 0.310508
+        }
+      }
+    },
+    {
+      "id": "temporality",
+      "label": "时间性／绵延",
+      "cohort": "C0",
+      "category": "concept",
+      "description": "强调生成、持续、存在时间与历史经验，反对把时间仅理解为空间化序列。",
+      "theorists": "柏格森、海德格尔",
+      "dictionary": true,
+      "aliases": "duration; temporality",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 5,
+        "betweenness": 0.02289,
+        "closeness": 0.24722,
+        "eigenvector": 0.01038,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.06775,
+          "y": 0.427203
+        },
+        "force": {
+          "x": 0.2115,
+          "y": 0.258215
+        }
+      }
+    },
+    {
+      "id": "symbolic_forms",
+      "label": "象征形式",
+      "cohort": "C0",
+      "category": "concept",
+      "description": "文化通过语言、神话、艺术等符号形式组织可经验的世界。",
+      "theorists": "卡西尔、瓦尔堡",
+      "dictionary": true,
+      "aliases": "symbol",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 4,
+        "betweenness": 0.00555,
+        "closeness": 0.23483,
+        "eigenvector": 0.01262,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.0753,
+          "y": 0.332809
+        },
+        "force": {
+          "x": 0.139266,
+          "y": 0.239123
+        }
+      }
+    },
+    {
+      "id": "human_sciences",
+      "label": "人文学科自主",
+      "cohort": "C0",
+      "category": "institution",
+      "description": "以理解、解释与历史性区别于自然科学的因果说明。",
+      "theorists": "狄尔泰、韦伯",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 5,
+        "betweenness": 0.00345,
+        "closeness": 0.22821,
+        "eigenvector": 0.0146,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.074425,
+          "y": 0.121277
+        },
+        "force": {
+          "x": 0.354918,
+          "y": 0.068677
+        }
+      }
+    },
+    {
+      "id": "cultural_memory",
+      "label": "文化记忆",
+      "cohort": "C0",
+      "category": "concept",
+      "description": "图像、仪式、文本与媒介保存、选择并重组集体经验。",
+      "theorists": "瓦尔堡；后由阿斯曼等发展",
+      "dictionary": true,
+      "aliases": "memory; collective memory",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 4,
+        "betweenness": 0.00626,
+        "closeness": 0.2764,
+        "eigenvector": 0.02851,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.0784,
+          "y": 0.642076
+        },
+        "force": {
+          "x": 0.652048,
+          "y": 0.448083
+        }
+      }
+    },
+    {
+      "id": "war_rupture",
+      "label": "大战与革命的历史断裂",
+      "cohort": "C1",
+      "category": "context",
+      "description": "一战、革命与帝国瓦解造成经验连续性的破裂。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 8,
+        "betweenness": 0.0116,
+        "closeness": 0.26647,
+        "eigenvector": 0.0193,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.2379,
+          "y": 0.421834
+        },
+        "force": {
+          "x": 0.366682,
+          "y": 0.643289
+        }
+      }
+    },
+    {
+      "id": "modernism",
+      "label": "现代主义",
+      "cohort": "C1",
+      "category": "concept",
+      "description": "以形式实验回应都市化、战争、技术与感知危机。",
+      "theorists": "艾略特、伍尔夫、乔伊斯等",
+      "dictionary": true,
+      "aliases": "modernist movement",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 12,
+        "betweenness": 0.04616,
+        "closeness": 0.28435,
+        "eigenvector": 0.02491,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.25685,
+          "y": 0.70899
+        },
+        "force": {
+          "x": 0.312861,
+          "y": 0.610136
+        }
+      }
+    },
+    {
+      "id": "form",
+      "label": "形式自主",
+      "cohort": "C1",
+      "category": "concept",
+      "description": "文学形式被视为相对独立、可分析的组织原则。",
+      "theorists": "俄国形式主义、英美新批评",
+      "dictionary": true,
+      "aliases": "form; formalism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 12,
+        "betweenness": 0.06085,
+        "closeness": 0.26488,
+        "eigenvector": 0.0129,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.2434,
+          "y": 0.830704
+        },
+        "force": {
+          "x": 0.219421,
+          "y": 0.636714
+        }
+      }
+    },
+    {
+      "id": "literariness",
+      "label": "文学性",
+      "cohort": "C1",
+      "category": "concept",
+      "description": "区分文学语言与日常语言的特殊机制。",
+      "theorists": "雅各布森",
+      "dictionary": true,
+      "aliases": "literariness",
+      "metrics": {
+        "degree": 1,
+        "weighted_degree": 3,
+        "betweenness": 0.0,
+        "closeness": 0.20991,
+        "eigenvector": 0.00327,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.240025,
+          "y": 0.89948
+        },
+        "force": {
+          "x": 0.132123,
+          "y": 0.696056
+        }
+      }
+    },
+    {
+      "id": "estrangement",
+      "label": "陌生化",
+      "cohort": "C1",
+      "category": "method",
+      "description": "通过打破自动化感知，使对象重新可见。",
+      "theorists": "什克洛夫斯基",
+      "dictionary": true,
+      "aliases": "defamiliarization; ostranenie",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 6,
+        "betweenness": 0.04554,
+        "closeness": 0.2899,
+        "eigenvector": 0.0204,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.239825,
+          "y": 0.758791
+        },
+        "force": {
+          "x": 0.322407,
+          "y": 0.559132
+        }
+      }
+    },
+    {
+      "id": "totality",
+      "label": "总体性",
+      "cohort": "C1",
+      "category": "problem",
+      "description": "在碎片化现代社会中重新把握社会整体结构的要求。",
+      "theorists": "卢卡奇",
+      "dictionary": true,
+      "aliases": "totality",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01725,
+        "closeness": 0.26807,
+        "eigenvector": 0.04371,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.25475,
+          "y": 0.468536
+        },
+        "force": {
+          "x": 0.393613,
+          "y": 0.574264
+        }
+      }
+    },
+    {
+      "id": "realism",
+      "label": "现实主义论争",
+      "cohort": "C1",
+      "category": "problem",
+      "description": "艺术应如何表现资本主义社会及其历史矛盾。",
+      "theorists": "卢卡奇、布莱希特、阿多诺",
+      "dictionary": true,
+      "aliases": "realism",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 5,
+        "betweenness": 0.0063,
+        "closeness": 0.25723,
+        "eigenvector": 0.04411,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.251225,
+          "y": 0.278375
+        },
+        "force": {
+          "x": 0.434301,
+          "y": 0.490252
+        }
+      }
+    },
+    {
+      "id": "montage",
+      "label": "蒙太奇／寓言／碎片",
+      "cohort": "C1",
+      "category": "method",
+      "description": "以并置、断裂、残片和引文呈现现代经验。",
+      "theorists": "本雅明、布莱希特",
+      "dictionary": true,
+      "aliases": "montage; allegory; fragment",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 5,
+        "betweenness": 0.03336,
+        "closeness": 0.28896,
+        "eigenvector": 0.01656,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.251175,
+          "y": 0.511189
+        },
+        "force": {
+          "x": 0.349086,
+          "y": 0.481695
+        }
+      }
+    },
+    {
+      "id": "dialogism",
+      "label": "对话性／复调",
+      "cohort": "C1",
+      "category": "concept",
+      "description": "意义产生于多种社会声音、话语和立场之间的关系。",
+      "theorists": "巴赫金",
+      "dictionary": true,
+      "aliases": "dialogism; polyphony; heteroglossia",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 4,
+        "betweenness": 0.00407,
+        "closeness": 0.25723,
+        "eigenvector": 0.03466,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.256325,
+          "y": 0.108168
+        },
+        "force": {
+          "x": 0.516274,
+          "y": 0.181671
+        }
+      }
+    },
+    {
+      "id": "chronotope",
+      "label": "时空体",
+      "cohort": "C1",
+      "category": "concept",
+      "description": "叙事类型中时间与空间的结构性结合。",
+      "theorists": "巴赫金",
+      "dictionary": true,
+      "aliases": "chronotope",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 3,
+        "betweenness": 0.00804,
+        "closeness": 0.22646,
+        "eigenvector": 0.00249,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.234725,
+          "y": 0.191346
+        },
+        "force": {
+          "x": 0.06,
+          "y": 0.324764
+        }
+      }
+    },
+    {
+      "id": "narrative_morphology",
+      "label": "叙事形态",
+      "cohort": "C1",
+      "category": "method",
+      "description": "从功能、结构和类型分析故事组织。",
+      "theorists": "普罗普",
+      "dictionary": true,
+      "aliases": "morphology; folktale",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 5,
+        "betweenness": 0.01286,
+        "closeness": 0.2336,
+        "eigenvector": 0.0046,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.236775,
+          "y": 0.635067
+        },
+        "force": {
+          "x": 0.115601,
+          "y": 0.52086
+        }
+      }
+    },
+    {
+      "id": "technical_reproduction",
+      "label": "技术复制／媒介转型",
+      "cohort": "C1",
+      "category": "problem",
+      "description": "摄影、电影与复制技术改变艺术的权威、感知与传播。",
+      "theorists": "本雅明",
+      "dictionary": true,
+      "aliases": "mechanical reproduction; aura",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.02122,
+        "closeness": 0.29866,
+        "eigenvector": 0.02673,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.2411,
+          "y": 0.34205
+        },
+        "force": {
+          "x": 0.480365,
+          "y": 0.51993
+        }
+      }
+    },
+    {
+      "id": "shock_experience",
+      "label": "震惊／经验贫乏",
+      "cohort": "C1",
+      "category": "problem",
+      "description": "都市、战争和技术使传统经验传递机制失效。",
+      "theorists": "本雅明",
+      "dictionary": true,
+      "aliases": "shock; experience",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 8,
+        "betweenness": 0.03515,
+        "closeness": 0.29866,
+        "eigenvector": 0.02206,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.249875,
+          "y": 0.589629
+        },
+        "force": {
+          "x": 0.452522,
+          "y": 0.597233
+        }
+      }
+    },
+    {
+      "id": "total_war",
+      "label": "总体战争／法西斯主义",
+      "cohort": "C2",
+      "category": "context",
+      "description": "总体动员、集中营与法西斯统治构成战后理论的创伤背景。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.02708,
+        "closeness": 0.21867,
+        "eigenvector": 0.0094,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.426825,
+          "y": 0.711011
+        },
+        "force": {
+          "x": 0.409983,
+          "y": 0.848959
+        }
+      }
+    },
+    {
+      "id": "exile",
+      "label": "流亡经验",
+      "cohort": "C2",
+      "category": "context",
+      "description": "跨国迁徙、语言断裂与失所改变知识生产的位置。",
+      "theorists": "阿多诺、奥尔巴赫、阿伦特等",
+      "dictionary": true,
+      "aliases": "exile",
+      "metrics": {
+        "degree": 1,
+        "weighted_degree": 3,
+        "betweenness": 0.0,
+        "closeness": 0.1798,
+        "eigenvector": 0.00238,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.415875,
+          "y": 0.890667
+        },
+        "force": {
+          "x": 0.389203,
+          "y": 0.94
+        }
+      }
+    },
+    {
+      "id": "enlightenment_dialectic",
+      "label": "启蒙辩证法",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "理性解放如何转化为计算、管理与统治。",
+      "theorists": "霍克海默、阿多诺",
+      "dictionary": true,
+      "aliases": "dialectic",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 6,
+        "betweenness": 0.0,
+        "closeness": 0.20843,
+        "eigenvector": 0.00921,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.412975,
+          "y": 0.929322
+        },
+        "force": {
+          "x": 0.474178,
+          "y": 0.846891
+        }
+      }
+    },
+    {
+      "id": "culture_industry",
+      "label": "文化工业",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "文化商品化、标准化与大众传播塑造感知和欲望。",
+      "theorists": "霍克海默、阿多诺",
+      "dictionary": true,
+      "aliases": "culture industry; mass culture",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.04719,
+        "closeness": 0.25501,
+        "eigenvector": 0.02693,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.421625,
+          "y": 0.803803
+        },
+        "force": {
+          "x": 0.502983,
+          "y": 0.752768
+        }
+      }
+    },
+    {
+      "id": "aesthetic_autonomy",
+      "label": "审美自主",
+      "cohort": "C2",
+      "category": "problem",
+      "description": "艺术是否能凭借形式否定现实秩序。",
+      "theorists": "阿多诺、新批评",
+      "dictionary": true,
+      "aliases": "aesthetic autonomy",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 6,
+        "betweenness": 0.0253,
+        "closeness": 0.24722,
+        "eigenvector": 0.0113,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.426025,
+          "y": 0.747763
+        },
+        "force": {
+          "x": 0.327383,
+          "y": 0.744783
+        }
+      }
+    },
+    {
+      "id": "subject",
+      "label": "主体",
+      "cohort": "C2",
+      "category": "problem",
+      "description": "自由、自我同一性、能动性和主体位置是否可能。",
+      "theorists": "萨特、拉康、阿尔都塞等",
+      "dictionary": true,
+      "aliases": "subject; subjectivity",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 11,
+        "betweenness": 0.03538,
+        "closeness": 0.28617,
+        "eigenvector": 0.09395,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.4213,
+          "y": 0.47735
+        },
+        "force": {
+          "x": 0.357109,
+          "y": 0.44386
+        }
+      }
+    },
+    {
+      "id": "unconscious_subject",
+      "label": "无意识主体",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "主体由语言、欲望、缺失和象征秩序结构化。",
+      "theorists": "拉康",
+      "dictionary": true,
+      "aliases": "Lacanian criticism",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01685,
+        "closeness": 0.28896,
+        "eigenvector": 0.09143,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.4039,
+          "y": 0.52805
+        },
+        "force": {
+          "x": 0.407476,
+          "y": 0.420797
+        }
+      }
+    },
+    {
+      "id": "ideology",
+      "label": "意识形态",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "社会关系如何以自然、常识或主体召唤的方式被再生产。",
+      "theorists": "阿尔都塞、葛兰西",
+      "dictionary": true,
+      "aliases": "ideology; interpellation",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 11,
+        "betweenness": 0.02692,
+        "closeness": 0.2918,
+        "eigenvector": 0.12758,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.424,
+          "y": 0.586259
+        },
+        "force": {
+          "x": 0.462443,
+          "y": 0.441397
+        }
+      }
+    },
+    {
+      "id": "existence_freedom",
+      "label": "存在／自由",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "人在情境、责任与选择中构成自身。",
+      "theorists": "萨特、波伏瓦",
+      "dictionary": true,
+      "aliases": "existentialism",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 5,
+        "betweenness": 0.01948,
+        "closeness": 0.25948,
+        "eigenvector": 0.03171,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.422525,
+          "y": 0.407556
+        },
+        "force": {
+          "x": 0.285111,
+          "y": 0.355893
+        }
+      }
+    },
+    {
+      "id": "hermeneutics",
+      "label": "解释学",
+      "cohort": "C2",
+      "category": "method",
+      "description": "理解发生于历史传统、前见和解释循环之中。",
+      "theorists": "伽达默尔、利科",
+      "dictionary": true,
+      "aliases": "hermeneutics",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.03926,
+        "closeness": 0.27301,
+        "eigenvector": 0.02847,
+        "cross_cohort_neighbors": 4
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.4098,
+          "y": 0.212346
+        },
+        "force": {
+          "x": 0.346472,
+          "y": 0.174399
+        }
+      }
+    },
+    {
+      "id": "close_reading",
+      "label": "细读／有机统一",
+      "cohort": "C2",
+      "category": "method",
+      "description": "把作品视为张力、悖论、反讽与语义结构构成的整体。",
+      "theorists": "理查兹、布鲁克斯",
+      "dictionary": true,
+      "aliases": "close reading; New Criticism",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 6,
+        "betweenness": 0.01056,
+        "closeness": 0.28165,
+        "eigenvector": 0.0624,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.411475,
+          "y": 0.335476
+        },
+        "force": {
+          "x": 0.517792,
+          "y": 0.254633
+        }
+      }
+    },
+    {
+      "id": "myth_structure",
+      "label": "神话结构",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "表层差异背后存在关系性的转换规则。",
+      "theorists": "列维－斯特劳斯、弗莱",
+      "dictionary": true,
+      "aliases": "myth criticism; archetypal criticism",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 5,
+        "betweenness": 0.00495,
+        "closeness": 0.2336,
+        "eigenvector": 0.02762,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.41635,
+          "y": 0.16235
+        },
+        "force": {
+          "x": 0.193018,
+          "y": 0.201563
+        }
+      }
+    },
+    {
+      "id": "structural_relation",
+      "label": "结构关系",
+      "cohort": "C2",
+      "category": "concept",
+      "description": "元素意义取决于系统中的差异位置和组合规则。",
+      "theorists": "索绪尔、列维－斯特劳斯",
+      "dictionary": true,
+      "aliases": "structuralism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 14,
+        "betweenness": 0.04763,
+        "closeness": 0.28803,
+        "eigenvector": 0.10051,
+        "cross_cohort_neighbors": 4
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.40425,
+          "y": 0.280706
+        },
+        "force": {
+          "x": 0.305789,
+          "y": 0.254032
+        }
+      }
+    },
+    {
+      "id": "disciplinary_institution",
+      "label": "学科建制",
+      "cohort": "C2",
+      "category": "institution",
+      "description": "文论、语言学、人类学与社会科学在大学中专业化。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.00828,
+        "closeness": 0.24251,
+        "eigenvector": 0.04364,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.4178,
+          "y": 0.08334
+        },
+        "force": {
+          "x": 0.454539,
+          "y": 0.06
+        }
+      }
+    },
+    {
+      "id": "postwar_university",
+      "label": "战后大学扩张",
+      "cohort": "C3",
+      "category": "institution",
+      "description": "高等教育、研究机构、期刊和出版市场快速扩张。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01505,
+        "closeness": 0.26176,
+        "eigenvector": 0.07393,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.572525,
+          "y": 0.077709
+        },
+        "force": {
+          "x": 0.434233,
+          "y": 0.11808
+        }
+      }
+    },
+    {
+      "id": "decolonization",
+      "label": "去殖民化",
+      "cohort": "C3",
+      "category": "context",
+      "description": "帝国体系瓦解，殖民知识、身份与世界秩序成为问题。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 11,
+        "betweenness": 0.00129,
+        "closeness": 0.27217,
+        "eigenvector": 0.1969,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.58515,
+          "y": 0.134752
+        },
+        "force": {
+          "x": 0.730282,
+          "y": 0.222727
+        }
+      }
+    },
+    {
+      "id": "may68",
+      "label": "六八运动",
+      "cohort": "C3",
+      "category": "context",
+      "description": "学生运动、反权威政治与制度危机重塑理论议程。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01679,
+        "closeness": 0.28526,
+        "eigenvector": 0.1528,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.583425,
+          "y": 0.233166
+        },
+        "force": {
+          "x": 0.577247,
+          "y": 0.340886
+        }
+      }
+    },
+    {
+      "id": "language_turn",
+      "label": "语言学转向",
+      "cohort": "C3",
+      "category": "method",
+      "description": "把意义、主体和社会问题转写为语言与符号关系问题。",
+      "theorists": "结构主义、后结构主义",
+      "dictionary": true,
+      "aliases": "linguistic turn",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 14,
+        "betweenness": 0.03141,
+        "closeness": 0.28254,
+        "eigenvector": 0.08858,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.5822,
+          "y": 0.523349
+        },
+        "force": {
+          "x": 0.310897,
+          "y": 0.2118
+        }
+      }
+    },
+    {
+      "id": "text",
+      "label": "文本",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "作品不再是封闭对象，而是差异、引用、生产和阅读活动的场。",
+      "theorists": "巴特、克里斯蒂娃、德里达",
+      "dictionary": true,
+      "aliases": "text; textuality",
+      "metrics": {
+        "degree": 7,
+        "weighted_degree": 17,
+        "betweenness": 0.07003,
+        "closeness": 0.30479,
+        "eigenvector": 0.09265,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.583825,
+          "y": 0.491495
+        },
+        "force": {
+          "x": 0.394247,
+          "y": 0.253634
+        }
+      }
+    },
+    {
+      "id": "signification",
+      "label": "意义生产",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "意义被理解为过程、实践和关系，而非预存实体。",
+      "theorists": "巴特、克里斯蒂娃",
+      "dictionary": true,
+      "aliases": "signification; semiosis",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.01145,
+        "closeness": 0.28165,
+        "eigenvector": 0.04359,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.582075,
+          "y": 0.324092
+        },
+        "force": {
+          "x": 0.40367,
+          "y": 0.188431
+        }
+      }
+    },
+    {
+      "id": "death_author",
+      "label": "作者之死",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "意义权威从作者意图转向语言、文本和读者。",
+      "theorists": "巴特、福柯",
+      "dictionary": true,
+      "aliases": "death of the author; author function",
+      "metrics": {
+        "degree": 2,
+        "weighted_degree": 6,
+        "betweenness": 0.00446,
+        "closeness": 0.2697,
+        "eigenvector": 0.03225,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.5793,
+          "y": 0.407119
+        },
+        "force": {
+          "x": 0.370555,
+          "y": 0.217108
+        }
+      }
+    },
+    {
+      "id": "reader_reception",
+      "label": "读者／接受",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "阅读期待、历史视野与读者活动参与作品生成。",
+      "theorists": "姚斯、伊瑟尔",
+      "dictionary": true,
+      "aliases": "reception theory; reader-response",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 10,
+        "betweenness": 0.06265,
+        "closeness": 0.3069,
+        "eigenvector": 0.03455,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.589775,
+          "y": 0.574175
+        },
+        "force": {
+          "x": 0.431546,
+          "y": 0.280296
+        }
+      }
+    },
+    {
+      "id": "narrative_discourse",
+      "label": "叙事话语",
+      "cohort": "C3",
+      "category": "method",
+      "description": "区分故事、话语、时间、视角、聚焦与叙述层次。",
+      "theorists": "热奈特、托多罗夫",
+      "dictionary": true,
+      "aliases": "narratology; narrative theory",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.02912,
+        "closeness": 0.25141,
+        "eigenvector": 0.00954,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.5736,
+          "y": 0.829402
+        },
+        "force": {
+          "x": 0.117567,
+          "y": 0.402073
+        }
+      }
+    },
+    {
+      "id": "deconstruction",
+      "label": "解构／延异",
+      "cohort": "C3",
+      "category": "method",
+      "description": "揭示二元结构、中心与意义稳定性的内在裂缝。",
+      "theorists": "德里达、德曼",
+      "dictionary": true,
+      "aliases": "deconstruction; différance",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 13,
+        "betweenness": 0.09391,
+        "closeness": 0.319,
+        "eigenvector": 0.15854,
+        "cross_cohort_neighbors": 6
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.5856,
+          "y": 0.779717
+        },
+        "force": {
+          "x": 0.440409,
+          "y": 0.340214
+        }
+      }
+    },
+    {
+      "id": "discourse",
+      "label": "话语",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "知识对象、主体位置和可说性由历史规则组织。",
+      "theorists": "福柯",
+      "dictionary": true,
+      "aliases": "discourse",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 14,
+        "betweenness": 0.01647,
+        "closeness": 0.2871,
+        "eigenvector": 0.19633,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.596925,
+          "y": 0.621453
+        },
+        "force": {
+          "x": 0.679954,
+          "y": 0.328159
+        }
+      }
+    },
+    {
+      "id": "power_knowledge",
+      "label": "权力／知识",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "知识制度与权力技术相互生产。",
+      "theorists": "福柯",
+      "dictionary": true,
+      "aliases": "power/knowledge",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 15,
+        "betweenness": 0.05745,
+        "closeness": 0.32721,
+        "eigenvector": 0.20561,
+        "cross_cohort_neighbors": 4
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.5878,
+          "y": 0.662695
+        },
+        "force": {
+          "x": 0.660154,
+          "y": 0.340916
+        }
+      }
+    },
+    {
+      "id": "field_habitus",
+      "label": "场域／惯习",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "文化生产由位置竞争、资本结构和实践倾向塑造。",
+      "theorists": "布迪厄",
+      "dictionary": true,
+      "aliases": "field; habitus; cultural capital",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.02911,
+        "closeness": 0.28896,
+        "eigenvector": 0.13265,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.581575,
+          "y": 0.16218
+        },
+        "force": {
+          "x": 0.545334,
+          "y": 0.155156
+        }
+      }
+    },
+    {
+      "id": "hegemony",
+      "label": "霸权／文化研究",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "统治通过文化领导、协商和日常实践维持。",
+      "theorists": "葛兰西、雷蒙·威廉斯、霍尔",
+      "dictionary": true,
+      "aliases": "hegemony; cultural studies",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 11,
+        "betweenness": 0.02041,
+        "closeness": 0.28435,
+        "eigenvector": 0.14949,
+        "cross_cohort_neighbors": 4
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.594,
+          "y": 0.702677
+        },
+        "force": {
+          "x": 0.49519,
+          "y": 0.346353
+        }
+      }
+    },
+    {
+      "id": "representation",
+      "label": "表述／东方主义",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "再现并非中性镜像，而参与制造他者与权力关系。",
+      "theorists": "萨义德",
+      "dictionary": true,
+      "aliases": "representation; Orientalism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 13,
+        "betweenness": 0.00151,
+        "closeness": 0.27301,
+        "eigenvector": 0.21508,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.585575,
+          "y": 0.365836
+        },
+        "force": {
+          "x": 0.714785,
+          "y": 0.204112
+        }
+      }
+    },
+    {
+      "id": "cultural_imperialism",
+      "label": "文化帝国主义",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "媒介、教育与文化制度把支配中心的价值和结构扩展至边缘。",
+      "theorists": "萨义德、席勒等",
+      "dictionary": true,
+      "aliases": "cultural imperialism",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.0,
+        "closeness": 0.27134,
+        "eigenvector": 0.13978,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.576275,
+          "y": 0.282648
+        },
+        "force": {
+          "x": 0.713398,
+          "y": 0.174496
+        }
+      }
+    },
+    {
+      "id": "late_capitalism",
+      "label": "晚期资本主义／政治无意识",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "文化形式被置于资本主义总体结构与历史压抑中解释。",
+      "theorists": "詹姆逊",
+      "dictionary": true,
+      "aliases": "late capitalism; political unconscious",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 14,
+        "betweenness": 0.05686,
+        "closeness": 0.30903,
+        "eigenvector": 0.09569,
+        "cross_cohort_neighbors": 5
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.587,
+          "y": 0.895472
+        },
+        "force": {
+          "x": 0.496326,
+          "y": 0.559218
+        }
+      }
+    },
+    {
+      "id": "semiotics",
+      "label": "符号学",
+      "cohort": "C3",
+      "category": "method",
+      "description": "分析文化现象的编码、符号关系与意义机制。",
+      "theorists": "巴特、格雷马斯、埃科",
+      "dictionary": true,
+      "aliases": "semiotics",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 11,
+        "betweenness": 0.07268,
+        "closeness": 0.2918,
+        "eigenvector": 0.04704,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 5,
+      "positions": {
+        "genealogy": {
+          "x": 0.5969,
+          "y": 0.734911
+        },
+        "force": {
+          "x": 0.257035,
+          "y": 0.30673
+        }
+      }
+    },
+    {
+      "id": "intertextuality",
+      "label": "互文性",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "文本由其他文本、话语和社会声音的重组构成。",
+      "theorists": "克里斯蒂娃、巴特",
+      "dictionary": true,
+      "aliases": "intertextuality",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 9,
+        "betweenness": 0.0324,
+        "closeness": 0.29866,
+        "eigenvector": 0.08685,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.589075,
+          "y": 0.446723
+        },
+        "force": {
+          "x": 0.50865,
+          "y": 0.220345
+        }
+      }
+    },
+    {
+      "id": "interpretive_community",
+      "label": "解释共同体",
+      "cohort": "C3",
+      "category": "concept",
+      "description": "阅读规范由共同体和制度训练塑造。",
+      "theorists": "斯坦利·费什",
+      "dictionary": true,
+      "aliases": "interpretive community",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 9,
+        "betweenness": 0.02561,
+        "closeness": 0.28254,
+        "eigenvector": 0.08434,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.582625,
+          "y": 0.242935
+        },
+        "force": {
+          "x": 0.464741,
+          "y": 0.170623
+        }
+      }
+    },
+    {
+      "id": "civil_rights_feminism",
+      "label": "民权／第二波女性主义",
+      "cohort": "C4",
+      "category": "context",
+      "description": "民权、女性主义、反战与解放运动把差异和权利推入理论中心。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 11,
+        "betweenness": 0.00545,
+        "closeness": 0.28617,
+        "eigenvector": 0.15758,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.74845,
+          "y": 0.232287
+        },
+        "force": {
+          "x": 0.526619,
+          "y": 0.449314
+        }
+      }
+    },
+    {
+      "id": "neoliberal_turn",
+      "label": "新自由主义转型",
+      "cohort": "C4",
+      "category": "context",
+      "description": "市场化、去福利化和劳动不稳定改变文化生产。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 8,
+        "betweenness": 0.01041,
+        "closeness": 0.29373,
+        "eigenvector": 0.06185,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.757625,
+          "y": 0.436198
+        },
+        "force": {
+          "x": 0.637127,
+          "y": 0.575439
+        }
+      }
+    },
+    {
+      "id": "difference_politics",
+      "label": "差异政治",
+      "cohort": "C4",
+      "category": "problem",
+      "description": "普遍主体内部被压抑的性别、种族、阶级和殖民差异。",
+      "theorists": "斯皮瓦克、巴特勒、霍尔等",
+      "dictionary": true,
+      "aliases": "difference",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 12,
+        "betweenness": 0.03519,
+        "closeness": 0.2947,
+        "eigenvector": 0.16644,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.742525,
+          "y": 0.311635
+        },
+        "force": {
+          "x": 0.470872,
+          "y": 0.380909
+        }
+      }
+    },
+    {
+      "id": "identity",
+      "label": "身份／认同",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "主体位置由社会分类、认同实践与权力关系构成。",
+      "theorists": "斯图亚特·霍尔等",
+      "dictionary": true,
+      "aliases": "identity",
+      "metrics": {
+        "degree": 7,
+        "weighted_degree": 18,
+        "betweenness": 0.03307,
+        "closeness": 0.29966,
+        "eigenvector": 0.22978,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.76435,
+          "y": 0.593687
+        },
+        "force": {
+          "x": 0.498346,
+          "y": 0.431608
+        }
+      }
+    },
+    {
+      "id": "gender_performativity",
+      "label": "性别表演性",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "性别通过重复规范、言说和身体实践被生产。",
+      "theorists": "朱迪斯·巴特勒",
+      "dictionary": true,
+      "aliases": "gender performativity",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 14,
+        "betweenness": 0.02732,
+        "closeness": 0.30479,
+        "eigenvector": 0.19466,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.749125,
+          "y": 0.452506
+        },
+        "force": {
+          "x": 0.534402,
+          "y": 0.405354
+        }
+      }
+    },
+    {
+      "id": "intersectionality",
+      "label": "交叉性",
+      "cohort": "C4",
+      "category": "method",
+      "description": "多重权力轴线相互构成，不能被单一身份解释。",
+      "theorists": "金伯利·克伦肖及其后续理论",
+      "dictionary": false,
+      "aliases": "intersectionality",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 10,
+        "betweenness": 0.04784,
+        "closeness": 0.31119,
+        "eigenvector": 0.13339,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.76375,
+          "y": 0.737581
+        },
+        "force": {
+          "x": 0.610598,
+          "y": 0.473638
+        }
+      }
+    },
+    {
+      "id": "body_politics",
+      "label": "身体政治",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "身体是规范、欲望、技术、规训和抵抗的作用场。",
+      "theorists": "福柯、巴特勒等",
+      "dictionary": true,
+      "aliases": "body; embodiment",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 13,
+        "betweenness": 0.05433,
+        "closeness": 0.319,
+        "eigenvector": 0.18068,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.7524,
+          "y": 0.500737
+        },
+        "force": {
+          "x": 0.677441,
+          "y": 0.420912
+        }
+      }
+    },
+    {
+      "id": "subaltern",
+      "label": "底层／发声问题",
+      "cohort": "C4",
+      "category": "problem",
+      "description": "被殖民和边缘群体能否进入主导表述结构。",
+      "theorists": "斯皮瓦克",
+      "dictionary": true,
+      "aliases": "subaltern",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 14,
+        "betweenness": 0.03547,
+        "closeness": 0.30068,
+        "eigenvector": 0.22704,
+        "cross_cohort_neighbors": 5
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.7669,
+          "y": 0.104728
+        },
+        "force": {
+          "x": 0.640461,
+          "y": 0.23736
+        }
+      }
+    },
+    {
+      "id": "hybridity",
+      "label": "杂合／第三空间",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "殖民接触区中的身份混杂、模仿与文化协商。",
+      "theorists": "霍米·巴巴",
+      "dictionary": true,
+      "aliases": "hybridity; third space; mimicry",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 9,
+        "betweenness": 0.00809,
+        "closeness": 0.2764,
+        "eigenvector": 0.14958,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.7671,
+          "y": 0.248559
+        },
+        "force": {
+          "x": 0.715439,
+          "y": 0.279019
+        }
+      }
+    },
+    {
+      "id": "new_historicism",
+      "label": "新历史主义",
+      "cohort": "C4",
+      "category": "method",
+      "description": "文学与历史话语共同嵌入权力、制度和微观事件。",
+      "theorists": "格林布拉特",
+      "dictionary": true,
+      "aliases": "New Historicism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 13,
+        "betweenness": 0.0239,
+        "closeness": 0.29568,
+        "eigenvector": 0.18421,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.758075,
+          "y": 0.34071
+        },
+        "force": {
+          "x": 0.581451,
+          "y": 0.28507
+        }
+      }
+    },
+    {
+      "id": "cultural_materialism",
+      "label": "文化唯物主义",
+      "cohort": "C4",
+      "category": "method",
+      "description": "把文本置于阶级、制度、意识形态与抵抗实践中分析。",
+      "theorists": "雷蒙·威廉斯、辛菲尔德、多利莫尔",
+      "dictionary": true,
+      "aliases": "cultural materialism",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 15,
+        "betweenness": 0.05201,
+        "closeness": 0.30903,
+        "eigenvector": 0.19535,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 4,
+      "positions": {
+        "genealogy": {
+          "x": 0.746175,
+          "y": 0.536846
+        },
+        "force": {
+          "x": 0.522874,
+          "y": 0.365978
+        }
+      }
+    },
+    {
+      "id": "queer",
+      "label": "酷儿理论",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "质疑性别与欲望规范的自然性和稳定身份。",
+      "theorists": "巴特勒、塞奇威克",
+      "dictionary": true,
+      "aliases": "queer theory",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 10,
+        "betweenness": 0.01675,
+        "closeness": 0.29966,
+        "eigenvector": 0.13775,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 3,
+      "positions": {
+        "genealogy": {
+          "x": 0.75615,
+          "y": 0.64614
+        },
+        "force": {
+          "x": 0.563275,
+          "y": 0.471718
+        }
+      }
+    },
+    {
+      "id": "cyborg",
+      "label": "赛博格",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "跨越人／机器、自然／文化边界的混合主体。",
+      "theorists": "哈拉维",
+      "dictionary": true,
+      "aliases": "cyborg",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 7,
+        "betweenness": 0.0,
+        "closeness": 0.22938,
+        "eigenvector": 0.03525,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.75865,
+          "y": 0.842149
+        },
+        "force": {
+          "x": 0.94,
+          "y": 0.551889
+        }
+      }
+    },
+    {
+      "id": "affect",
+      "label": "情感／情动",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "关注身体强度、情绪流通和前认知经验。",
+      "theorists": "塞奇威克、贝兰特等",
+      "dictionary": true,
+      "aliases": "affect",
+      "metrics": {
+        "degree": 8,
+        "weighted_degree": 14,
+        "betweenness": 0.09228,
+        "closeness": 0.33585,
+        "eigenvector": 0.09432,
+        "cross_cohort_neighbors": 5
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.757925,
+          "y": 0.696235
+        },
+        "force": {
+          "x": 0.562778,
+          "y": 0.498117
+        }
+      }
+    },
+    {
+      "id": "canon",
+      "label": "经典建构",
+      "cohort": "C4",
+      "category": "problem",
+      "description": "哪些作品被保存、教授和认定为具有普遍价值。",
+      "theorists": "女性主义、文化研究、新历史主义",
+      "dictionary": true,
+      "aliases": "canon; canon formation",
+      "metrics": {
+        "degree": 7,
+        "weighted_degree": 17,
+        "betweenness": 0.0768,
+        "closeness": 0.32364,
+        "eigenvector": 0.2353,
+        "cross_cohort_neighbors": 5
+      },
+      "community": 7,
+      "positions": {
+        "genealogy": {
+          "x": 0.755675,
+          "y": 0.154284
+        },
+        "force": {
+          "x": 0.568501,
+          "y": 0.260625
+        }
+      }
+    },
+    {
+      "id": "postmodernism",
+      "label": "后现代主义",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "碎片化、拟像、拼贴与宏大叙事危机。",
+      "theorists": "利奥塔、詹姆逊、哈琴",
+      "dictionary": true,
+      "aliases": "postmodernism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 10,
+        "betweenness": 0.04199,
+        "closeness": 0.28896,
+        "eigenvector": 0.04456,
+        "cross_cohort_neighbors": 5
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.7532,
+          "y": 0.905928
+        },
+        "force": {
+          "x": 0.430334,
+          "y": 0.657863
+        }
+      }
+    },
+    {
+      "id": "trauma_memory",
+      "label": "创伤与记忆",
+      "cohort": "C4",
+      "category": "concept",
+      "description": "不可整合的历史经验如何被叙述、见证与代际传递。",
+      "theorists": "卡鲁斯、拉卡普拉等",
+      "dictionary": true,
+      "aliases": "trauma; memory studies",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 8,
+        "betweenness": 0.02471,
+        "closeness": 0.29667,
+        "eigenvector": 0.034,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 1,
+      "positions": {
+        "genealogy": {
+          "x": 0.75275,
+          "y": 0.794666
+        },
+        "force": {
+          "x": 0.609457,
+          "y": 0.540684
+        }
+      }
+    },
+    {
+      "id": "globalization",
+      "label": "全球化",
+      "cohort": "C5",
+      "category": "context",
+      "description": "资本、媒介、人口和文化生产跨国重组。",
+      "theorists": "",
+      "dictionary": true,
+      "aliases": "globalism; globalization",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 13,
+        "betweenness": 0.08577,
+        "closeness": 0.3463,
+        "eigenvector": 0.14745,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.922275,
+          "y": 0.134249
+        },
+        "force": {
+          "x": 0.638735,
+          "y": 0.422972
+        }
+      }
+    },
+    {
+      "id": "digital_platform",
+      "label": "数字平台",
+      "cohort": "C5",
+      "category": "context",
+      "description": "平台基础设施重组注意力、出版、阅读与文化劳动。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "platformization",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 12,
+        "betweenness": 0.07274,
+        "closeness": 0.30903,
+        "eigenvector": 0.04123,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.92995,
+          "y": 0.380062
+        },
+        "force": {
+          "x": 0.556586,
+          "y": 0.597565
+        }
+      }
+    },
+    {
+      "id": "climate_crisis",
+      "label": "气候／行星危机",
+      "cohort": "C5",
+      "category": "context",
+      "description": "生态灾难要求改变文学理论的时间、尺度和主体观。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 9,
+        "betweenness": 0.00134,
+        "closeness": 0.25501,
+        "eigenvector": 0.05875,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.924575,
+          "y": 0.179848
+        },
+        "force": {
+          "x": 0.872667,
+          "y": 0.437171
+        }
+      }
+    },
+    {
+      "id": "world_literature",
+      "label": "世界文学",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "文学在翻译、市场、世界体系与跨国流通中被重新理解。",
+      "theorists": "达姆罗什、卡萨诺瓦、莫莱蒂等",
+      "dictionary": true,
+      "aliases": "world literature",
+      "metrics": {
+        "degree": 10,
+        "weighted_degree": 21,
+        "betweenness": 0.12523,
+        "closeness": 0.34231,
+        "eigenvector": 0.27726,
+        "cross_cohort_neighbors": 7
+      },
+      "community": 9,
+      "positions": {
+        "genealogy": {
+          "x": 0.9309,
+          "y": 0.195175
+        },
+        "force": {
+          "x": 0.664668,
+          "y": 0.275326
+        }
+      }
+    },
+    {
+      "id": "distant_reading",
+      "label": "远读",
+      "cohort": "C5",
+      "category": "method",
+      "description": "以大规模语料、统计和形式模式补充个案细读。",
+      "theorists": "莫莱蒂",
+      "dictionary": false,
+      "aliases": "distant reading",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 8,
+        "betweenness": 0.01883,
+        "closeness": 0.2918,
+        "eigenvector": 0.09229,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.9271,
+          "y": 0.247244
+        },
+        "force": {
+          "x": 0.611673,
+          "y": 0.327147
+        }
+      }
+    },
+    {
+      "id": "digital_humanities",
+      "label": "数字人文",
+      "cohort": "C5",
+      "category": "method",
+      "description": "计算工具、数字档案和可视化进入人文研究。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "digital humanities",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 9,
+        "betweenness": 0.03715,
+        "closeness": 0.30479,
+        "eigenvector": 0.04512,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.9352,
+          "y": 0.569214
+        },
+        "force": {
+          "x": 0.590568,
+          "y": 0.442662
+        }
+      }
+    },
+    {
+      "id": "media_infrastructure",
+      "label": "媒介／基础设施",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "媒介技术、物流和物质系统参与文化意义生产。",
+      "theorists": "媒介理论、基础设施研究",
+      "dictionary": true,
+      "aliases": "media theory; infrastructure",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 11,
+        "betweenness": 0.10819,
+        "closeness": 0.33585,
+        "eigenvector": 0.06689,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.9161,
+          "y": 0.439057
+        },
+        "force": {
+          "x": 0.557885,
+          "y": 0.438691
+        }
+      }
+    },
+    {
+      "id": "affective_economy",
+      "label": "情感经济",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "情绪在媒体、政治和群体之间流通并积累价值。",
+      "theorists": "萨拉·艾哈迈德",
+      "dictionary": false,
+      "aliases": "affective economy",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 8,
+        "betweenness": 0.0374,
+        "closeness": 0.30375,
+        "eigenvector": 0.05285,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.93245,
+          "y": 0.853932
+        },
+        "force": {
+          "x": 0.590231,
+          "y": 0.592525
+        }
+      }
+    },
+    {
+      "id": "ecological_form",
+      "label": "生态形式",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "文学形式与环境尺度、能量流和生态关系相连。",
+      "theorists": "生态批评相关研究",
+      "dictionary": false,
+      "aliases": "ecocriticism",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 6,
+        "betweenness": 0.01685,
+        "closeness": 0.27987,
+        "eigenvector": 0.03518,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.926825,
+          "y": 0.528924
+        },
+        "force": {
+          "x": 0.738688,
+          "y": 0.459339
+        }
+      }
+    },
+    {
+      "id": "anthropocene",
+      "label": "人类世",
+      "cohort": "C5",
+      "category": "problem",
+      "description": "人类成为地质力量后，历史与自然边界被重写。",
+      "theorists": "查克拉巴蒂、莫顿等",
+      "dictionary": false,
+      "aliases": "Anthropocene",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01083,
+        "closeness": 0.26023,
+        "eigenvector": 0.05724,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.91965,
+          "y": 0.312159
+        },
+        "force": {
+          "x": 0.851759,
+          "y": 0.453666
+        }
+      }
+    },
+    {
+      "id": "new_materialism",
+      "label": "新唯物主义",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "强调物质、身体、技术和非人行动者的能动性。",
+      "theorists": "巴拉德、贝内特等",
+      "dictionary": false,
+      "aliases": "new materialism",
+      "metrics": {
+        "degree": 3,
+        "weighted_degree": 8,
+        "betweenness": 0.0,
+        "closeness": 0.22938,
+        "eigenvector": 0.03888,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.927525,
+          "y": 0.807855
+        },
+        "force": {
+          "x": 0.922331,
+          "y": 0.575552
+        }
+      }
+    },
+    {
+      "id": "posthumanity",
+      "label": "后人类",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "去中心化的人类主体与技术、动物、环境共同构成。",
+      "theorists": "布莱多蒂、海尔斯等",
+      "dictionary": true,
+      "aliases": "posthumanism",
+      "metrics": {
+        "degree": 6,
+        "weighted_degree": 15,
+        "betweenness": 0.05366,
+        "closeness": 0.28526,
+        "eigenvector": 0.07964,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.920825,
+          "y": 0.66931
+        },
+        "force": {
+          "x": 0.829552,
+          "y": 0.5228
+        }
+      }
+    },
+    {
+      "id": "data_algorithm",
+      "label": "数据／算法",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "分类、推荐和计算模型参与文化可见性与判断。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "algorithmic culture",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.04421,
+        "closeness": 0.30479,
+        "eigenvector": 0.04666,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 8,
+      "positions": {
+        "genealogy": {
+          "x": 0.9243,
+          "y": 0.713081
+        },
+        "force": {
+          "x": 0.655559,
+          "y": 0.526363
+        }
+      }
+    },
+    {
+      "id": "planetary_scale",
+      "label": "行星尺度",
+      "cohort": "C5",
+      "category": "method",
+      "description": "超越民族和全球市场，以地球系统尺度理解文学与文化。",
+      "theorists": "斯皮瓦克、查克拉巴蒂等",
+      "dictionary": false,
+      "aliases": "planetarity",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.02894,
+        "closeness": 0.28526,
+        "eigenvector": 0.09047,
+        "cross_cohort_neighbors": 0
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.927275,
+          "y": 0.473389
+        },
+        "force": {
+          "x": 0.812471,
+          "y": 0.387363
+        }
+      }
+    },
+    {
+      "id": "capitalist_realism",
+      "label": "资本主义现实主义",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "资本主义被感知为缺乏可想象替代方案的现实框架。",
+      "theorists": "马克·费舍",
+      "dictionary": false,
+      "aliases": "capitalist realism",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 13,
+        "betweenness": 0.03382,
+        "closeness": 0.28254,
+        "eigenvector": 0.06324,
+        "cross_cohort_neighbors": 4
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.93535,
+          "y": 0.907673
+        },
+        "force": {
+          "x": 0.540567,
+          "y": 0.654072
+        }
+      }
+    },
+    {
+      "id": "precarity",
+      "label": "不稳定性",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "劳动、生活与身份长期处于脆弱、临时和风险状态。",
+      "theorists": "贝兰特、巴特勒等",
+      "dictionary": false,
+      "aliases": "precarity",
+      "metrics": {
+        "degree": 5,
+        "weighted_degree": 10,
+        "betweenness": 0.03051,
+        "closeness": 0.32601,
+        "eigenvector": 0.08239,
+        "cross_cohort_neighbors": 3
+      },
+      "community": 2,
+      "positions": {
+        "genealogy": {
+          "x": 0.936975,
+          "y": 0.62457
+        },
+        "force": {
+          "x": 0.678224,
+          "y": 0.513599
+        }
+      }
+    },
+    {
+      "id": "multispecies",
+      "label": "多物种／物质能动性",
+      "cohort": "C5",
+      "category": "concept",
+      "description": "把非人生命与物质过程纳入叙事、伦理和政治。",
+      "theorists": "哈拉维等",
+      "dictionary": false,
+      "aliases": "multispecies; nonhuman",
+      "metrics": {
+        "degree": 4,
+        "weighted_degree": 10,
+        "betweenness": 0.01289,
+        "closeness": 0.25723,
+        "eigenvector": 0.05021,
+        "cross_cohort_neighbors": 1
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.920075,
+          "y": 0.758958
+        },
+        "force": {
+          "x": 0.891324,
+          "y": 0.542176
+        }
+      }
+    },
+    {
+      "id": "environmental_justice",
+      "label": "环境正义",
+      "cohort": "C5",
+      "category": "problem",
+      "description": "生态风险在阶级、种族、地域和殖民关系中不均分配。",
+      "theorists": "",
+      "dictionary": false,
+      "aliases": "environmental justice",
+      "metrics": {
+        "degree": 7,
+        "weighted_degree": 14,
+        "betweenness": 0.06324,
+        "closeness": 0.3101,
+        "eigenvector": 0.08397,
+        "cross_cohort_neighbors": 2
+      },
+      "community": 6,
+      "positions": {
+        "genealogy": {
+          "x": 0.9191,
+          "y": 0.403833
+        },
+        "force": {
+          "x": 0.776098,
+          "y": 0.484826
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "modernity_crisis",
+      "target": "modernism",
+      "relation": "催生",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "modernity_crisis",
+      "target": "totality",
+      "relation": "提出总体性难题",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "modernity_crisis",
+      "target": "subject",
+      "relation": "使主体问题化",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "unconscious",
+      "target": "unconscious_subject",
+      "relation": "语言化与结构化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "unconscious",
+      "target": "affect",
+      "relation": "从深层心理扩展到身体强度",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "sign_system",
+      "target": "structural_relation",
+      "relation": "奠基",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "sign_system",
+      "target": "language_turn",
+      "relation": "奠基",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "sign_system",
+      "target": "semiotics",
+      "relation": "发展为符号学",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "genealogy",
+      "target": "discourse",
+      "relation": "历史化知识规则",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "genealogy",
+      "target": "power_knowledge",
+      "relation": "扩展至权力分析",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "temporality",
+      "target": "existence_freedom",
+      "relation": "存在论转化",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "temporality",
+      "target": "hermeneutics",
+      "relation": "历史理解的前提",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "temporality",
+      "target": "chronotope",
+      "relation": "叙事时空化",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "symbolic_forms",
+      "target": "myth_structure",
+      "relation": "由象征到结构",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "symbolic_forms",
+      "target": "semiotics",
+      "relation": "符号分析扩展",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "human_sciences",
+      "target": "hermeneutics",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "human_sciences",
+      "target": "disciplinary_institution",
+      "relation": "制度化",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "cultural_memory",
+      "target": "trauma_memory",
+      "relation": "扩展至创伤记忆",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "cultural_memory",
+      "target": "canon",
+      "relation": "保存与选择机制",
+      "relation_class": "constitute",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "war_rupture",
+      "target": "modernism",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "war_rupture",
+      "target": "shock_experience",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "war_rupture",
+      "target": "totality",
+      "relation": "提出整体性难题",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "modernism",
+      "target": "form",
+      "relation": "形式实验理论化",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "modernism",
+      "target": "montage",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "modernism",
+      "target": "postmodernism",
+      "relation": "被继承并反拨",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "form",
+      "target": "literariness",
+      "relation": "概念化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "form",
+      "target": "estrangement",
+      "relation": "方法化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "form",
+      "target": "narrative_morphology",
+      "relation": "结构化",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "form",
+      "target": "aesthetic_autonomy",
+      "relation": "深化",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "estrangement",
+      "target": "shock_experience",
+      "relation": "回应感知自动化",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "estrangement",
+      "target": "deconstruction",
+      "relation": "形式差异的远缘前驱",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "totality",
+      "target": "realism",
+      "relation": "规范性论争",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "totality",
+      "target": "late_capitalism",
+      "relation": "历史化转化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "realism",
+      "target": "cultural_materialism",
+      "relation": "社会历史化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "montage",
+      "target": "technical_reproduction",
+      "relation": "媒介形式关联",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "montage",
+      "target": "text",
+      "relation": "开放性形式前驱",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "dialogism",
+      "target": "intertextuality",
+      "relation": "改写与继承",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "dialogism",
+      "target": "hegemony",
+      "relation": "社会声音与文化斗争",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "chronotope",
+      "target": "narrative_discourse",
+      "relation": "叙事分析发展",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "narrative_morphology",
+      "target": "narrative_discourse",
+      "relation": "发展为叙事学",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "technical_reproduction",
+      "target": "media_infrastructure",
+      "relation": "媒介物质性扩展",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "technical_reproduction",
+      "target": "digital_platform",
+      "relation": "复制技术平台化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "shock_experience",
+      "target": "trauma_memory",
+      "relation": "由感知震惊转向创伤叙述",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "shock_experience",
+      "target": "affect",
+      "relation": "转向身体强度",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "total_war",
+      "target": "exile",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "total_war",
+      "target": "enlightenment_dialectic",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "total_war",
+      "target": "culture_industry",
+      "relation": "总体动员的文化维度",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "total_war",
+      "target": "aesthetic_autonomy",
+      "relation": "提出艺术抵抗问题",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "enlightenment_dialectic",
+      "target": "culture_industry",
+      "relation": "展开",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "culture_industry",
+      "target": "capitalist_realism",
+      "relation": "晚期延展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "culture_industry",
+      "target": "digital_platform",
+      "relation": "平台化升级",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "aesthetic_autonomy",
+      "target": "postmodernism",
+      "relation": "被质疑与重写",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "subject",
+      "target": "unconscious_subject",
+      "relation": "主体内部批判",
+      "relation_class": "critique",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "subject",
+      "target": "existence_freedom",
+      "relation": "规范性回应",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "subject",
+      "target": "ideology",
+      "relation": "社会化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "subject",
+      "target": "identity",
+      "relation": "由统一主体转向身份位置",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "unconscious_subject",
+      "target": "deconstruction",
+      "relation": "影响",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "unconscious_subject",
+      "target": "gender_performativity",
+      "relation": "欲望与规范的再理论化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "ideology",
+      "target": "hegemony",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "ideology",
+      "target": "late_capitalism",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "ideology",
+      "target": "cultural_materialism",
+      "relation": "批评方法发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "existence_freedom",
+      "target": "difference_politics",
+      "relation": "普遍自由受到差异批判",
+      "relation_class": "critique",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "hermeneutics",
+      "target": "reader_reception",
+      "relation": "发展为接受美学",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "hermeneutics",
+      "target": "interpretive_community",
+      "relation": "理解的共同体化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "close_reading",
+      "target": "text",
+      "relation": "由作品封闭性转向文本开放性",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "close_reading",
+      "target": "new_historicism",
+      "relation": "去语境化受到反拨",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "myth_structure",
+      "target": "structural_relation",
+      "relation": "结构化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "structural_relation",
+      "target": "language_turn",
+      "relation": "推进",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "structural_relation",
+      "target": "text",
+      "relation": "对象转向",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "structural_relation",
+      "target": "deconstruction",
+      "relation": "结构主义的内在反拨",
+      "relation_class": "critique",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "disciplinary_institution",
+      "target": "postwar_university",
+      "relation": "扩张",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "disciplinary_institution",
+      "target": "field_habitus",
+      "relation": "成为分析对象",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "postwar_university",
+      "target": "language_turn",
+      "relation": "制度条件",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "postwar_university",
+      "target": "field_habitus",
+      "relation": "制度条件",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "postwar_university",
+      "target": "interpretive_community",
+      "relation": "制度条件",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "decolonization",
+      "target": "representation",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "decolonization",
+      "target": "subaltern",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "decolonization",
+      "target": "hybridity",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "decolonization",
+      "target": "world_literature",
+      "relation": "重构文学尺度",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "may68",
+      "target": "power_knowledge",
+      "relation": "反权威政治化",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "may68",
+      "target": "difference_politics",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "may68",
+      "target": "hegemony",
+      "relation": "政治化",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "may68",
+      "target": "discourse",
+      "relation": "制度批判",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "language_turn",
+      "target": "text",
+      "relation": "对象转向",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "language_turn",
+      "target": "semiotics",
+      "relation": "方法转向",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "text",
+      "target": "death_author",
+      "relation": "推论",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "text",
+      "target": "intertextuality",
+      "relation": "推论",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "text",
+      "target": "signification",
+      "relation": "过程化",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "signification",
+      "target": "reader_reception",
+      "relation": "向阅读开放",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "signification",
+      "target": "interpretive_community",
+      "relation": "制度化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "death_author",
+      "target": "reader_reception",
+      "relation": "解释权威转移",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "narrative_discourse",
+      "target": "semiotics",
+      "relation": "方法关联",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "deconstruction",
+      "target": "difference_politics",
+      "relation": "政治化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "deconstruction",
+      "target": "gender_performativity",
+      "relation": "影响",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "deconstruction",
+      "target": "subaltern",
+      "relation": "批判资源",
+      "relation_class": "inherit",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "discourse",
+      "target": "power_knowledge",
+      "relation": "构成关系",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "discourse",
+      "target": "body_politics",
+      "relation": "对象扩展",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "discourse",
+      "target": "new_historicism",
+      "relation": "历史化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "power_knowledge",
+      "target": "body_politics",
+      "relation": "规训与治理",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "power_knowledge",
+      "target": "canon",
+      "relation": "制度批判",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "power_knowledge",
+      "target": "media_infrastructure",
+      "relation": "技术系统扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "field_habitus",
+      "target": "canon",
+      "relation": "制度解释",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "field_habitus",
+      "target": "world_literature",
+      "relation": "流通与资本解释",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "hegemony",
+      "target": "cultural_materialism",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "hegemony",
+      "target": "identity",
+      "relation": "文化政治化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "representation",
+      "target": "cultural_imperialism",
+      "relation": "扩展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "cultural_imperialism",
+      "target": "subaltern",
+      "relation": "深化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "cultural_imperialism",
+      "target": "world_literature",
+      "relation": "跨国流通问题",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "representation",
+      "target": "subaltern",
+      "relation": "批判深化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "representation",
+      "target": "hybridity",
+      "relation": "殖民身份复杂化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "representation",
+      "target": "world_literature",
+      "relation": "全球化扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "late_capitalism",
+      "target": "postmodernism",
+      "relation": "历史解释",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "late_capitalism",
+      "target": "capitalist_realism",
+      "relation": "历史延展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "late_capitalism",
+      "target": "globalization",
+      "relation": "尺度扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "semiotics",
+      "target": "media_infrastructure",
+      "relation": "媒介系统扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "intertextuality",
+      "target": "new_historicism",
+      "relation": "话语历史化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "intertextuality",
+      "target": "world_literature",
+      "relation": "跨文化扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "interpretive_community",
+      "target": "canon",
+      "relation": "制度解释",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "reader_reception",
+      "target": "affect",
+      "relation": "体验维度扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "reader_reception",
+      "target": "digital_humanities",
+      "relation": "阅读行为数据化",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "civil_rights_feminism",
+      "target": "difference_politics",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "civil_rights_feminism",
+      "target": "identity",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "civil_rights_feminism",
+      "target": "intersectionality",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "civil_rights_feminism",
+      "target": "queer",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "neoliberal_turn",
+      "target": "capitalist_realism",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "neoliberal_turn",
+      "target": "precarity",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "neoliberal_turn",
+      "target": "globalization",
+      "relation": "制度推动",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "difference_politics",
+      "target": "identity",
+      "relation": "问题化",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "identity",
+      "target": "intersectionality",
+      "relation": "复杂化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "identity",
+      "target": "gender_performativity",
+      "relation": "过程化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "identity",
+      "target": "queer",
+      "relation": "反规范化",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "gender_performativity",
+      "target": "body_politics",
+      "relation": "身体化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "gender_performativity",
+      "target": "queer",
+      "relation": "发展",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "intersectionality",
+      "target": "environmental_justice",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "intersectionality",
+      "target": "affective_economy",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "body_politics",
+      "target": "affect",
+      "relation": "感受维度",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "body_politics",
+      "target": "posthumanity",
+      "relation": "去人类中心化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "subaltern",
+      "target": "hybridity",
+      "relation": "争论关系",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "subaltern",
+      "target": "world_literature",
+      "relation": "经典与流通批判",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "hybridity",
+      "target": "globalization",
+      "relation": "跨国化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "new_historicism",
+      "target": "canon",
+      "relation": "历史化",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "new_historicism",
+      "target": "cultural_materialism",
+      "relation": "平行与差异",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "cultural_materialism",
+      "target": "canon",
+      "relation": "制度批判",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "cultural_materialism",
+      "target": "intersectionality",
+      "relation": "多重压迫扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "dictionary_crossref",
+      "note": ""
+    },
+    {
+      "source": "queer",
+      "target": "affect",
+      "relation": "情感转向",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "queer",
+      "target": "precarity",
+      "relation": "脆弱生命政治",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "cyborg",
+      "target": "posthumanity",
+      "relation": "奠基",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "cyborg",
+      "target": "new_materialism",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "cyborg",
+      "target": "multispecies",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "affect",
+      "target": "affective_economy",
+      "relation": "社会流通化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "affect",
+      "target": "precarity",
+      "relation": "依附与脆弱性",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "canon",
+      "target": "world_literature",
+      "relation": "跨国重构",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "postmodernism",
+      "target": "digital_platform",
+      "relation": "媒介条件升级",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "postmodernism",
+      "target": "capitalist_realism",
+      "relation": "反拨与延展",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "trauma_memory",
+      "target": "affect",
+      "relation": "感受与见证",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "trauma_memory",
+      "target": "environmental_justice",
+      "relation": "慢性灾难扩展",
+      "relation_class": "turn",
+      "weight": 1,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "globalization",
+      "target": "world_literature",
+      "relation": "制度条件",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "globalization",
+      "target": "media_infrastructure",
+      "relation": "物质条件",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "globalization",
+      "target": "precarity",
+      "relation": "社会后果",
+      "relation_class": "history",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "digital_platform",
+      "target": "data_algorithm",
+      "relation": "技术构成",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "digital_platform",
+      "target": "affective_economy",
+      "relation": "注意力与情绪流通",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "digital_platform",
+      "target": "digital_humanities",
+      "relation": "研究对象与工具",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "climate_crisis",
+      "target": "anthropocene",
+      "relation": "历史触发",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "climate_crisis",
+      "target": "planetary_scale",
+      "relation": "尺度要求",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "climate_crisis",
+      "target": "environmental_justice",
+      "relation": "分配问题",
+      "relation_class": "history",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "world_literature",
+      "target": "distant_reading",
+      "relation": "规模化方法",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "world_literature",
+      "target": "planetary_scale",
+      "relation": "全球向行星反拨",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "distant_reading",
+      "target": "digital_humanities",
+      "relation": "计算化",
+      "relation_class": "inherit",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "distant_reading",
+      "target": "close_reading",
+      "relation": "方法张力",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "digital_humanities",
+      "target": "data_algorithm",
+      "relation": "工具与对象互构",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "media_infrastructure",
+      "target": "data_algorithm",
+      "relation": "物质基础",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "media_infrastructure",
+      "target": "ecological_form",
+      "relation": "物质生态化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "affective_economy",
+      "target": "capitalist_realism",
+      "relation": "情感结构解释",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "ecological_form",
+      "target": "anthropocene",
+      "relation": "形式回应",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "ecological_form",
+      "target": "environmental_justice",
+      "relation": "伦理政治化",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "anthropocene",
+      "target": "planetary_scale",
+      "relation": "尺度转向",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "anthropocene",
+      "target": "posthumanity",
+      "relation": "人类中心批判",
+      "relation_class": "critique",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "new_materialism",
+      "target": "posthumanity",
+      "relation": "理论联盟",
+      "relation_class": "constitute",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "new_materialism",
+      "target": "multispecies",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "posthumanity",
+      "target": "multispecies",
+      "relation": "扩展",
+      "relation_class": "turn",
+      "weight": 3,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "posthumanity",
+      "target": "data_algorithm",
+      "relation": "技术主体问题",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "planetary_scale",
+      "target": "environmental_justice",
+      "relation": "尺度与分配结合",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "precarity",
+      "target": "environmental_justice",
+      "relation": "脆弱性不均分配",
+      "relation_class": "constitute",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    },
+    {
+      "source": "multispecies",
+      "target": "environmental_justice",
+      "relation": "非人正义扩展",
+      "relation_class": "turn",
+      "weight": 2,
+      "source_type": "genealogy",
+      "note": ""
+    }
+  ],
+  "cohortLabels": {
+    "C0": "理论前史｜1840–1879",
+    "C1": "第一队列｜1880–1899",
+    "C2": "第二队列｜1900–1919",
+    "C3": "第三队列｜1920–1939",
+    "C4": "第四队列｜1940–1959",
+    "C5": "第五队列｜1960–1979（开放队列）"
+  },
+  "categoryLabels": {
+    "context": "历史／制度条件",
+    "problem": "核心问题",
+    "concept": "理论概念",
+    "method": "方法／对象转向",
+    "institution": "知识制度"
+  },
+  "relationClassLabels": {
+    "inherit": "继承／发展",
+    "critique": "反拨／批判",
+    "turn": "转向／扩展",
+    "history": "历史／制度触发",
+    "constitute": "构成／互释"
+  },
+  "stats": {
+    "node_count": 90,
+    "edge_count": 184,
+    "density": 0.023,
+    "components": 1,
+    "communities": 9,
+    "modularity": 0.632,
+    "dictionary_nodes": 65
+  },
+  "cohortStats": {
+    "C0": {
+      "nodes": 8,
+      "internal_edges": 0,
+      "avg_degree": 2.38
+    },
+    "C1": {
+      "nodes": 13,
+      "internal_edges": 11,
+      "avg_degree": 3.0
+    },
+    "C2": {
+      "nodes": 14,
+      "internal_edges": 9,
+      "avg_degree": 3.36
+    },
+    "C3": {
+      "nodes": 20,
+      "internal_edges": 18,
+      "avg_degree": 4.45
+    },
+    "C4": {
+      "nodes": 17,
+      "internal_edges": 18,
+      "avg_degree": 5.12
+    },
+    "C5": {
+      "nodes": 18,
+      "internal_edges": 27,
+      "avg_degree": 4.83
+    }
+  },
+  "crossMatrix": {
+    "C0": {
+      "C0": 0,
+      "C1": 3,
+      "C2": 8,
+      "C3": 5,
+      "C4": 3,
+      "C5": 0
+    },
+    "C1": {
+      "C0": 0,
+      "C1": 11,
+      "C2": 1,
+      "C3": 7,
+      "C4": 4,
+      "C5": 2
+    },
+    "C2": {
+      "C0": 0,
+      "C1": 0,
+      "C2": 9,
+      "C3": 11,
+      "C4": 6,
+      "C5": 2
+    },
+    "C3": {
+      "C0": 0,
+      "C1": 0,
+      "C2": 0,
+      "C3": 18,
+      "C4": 20,
+      "C5": 10
+    },
+    "C4": {
+      "C0": 0,
+      "C1": 0,
+      "C2": 0,
+      "C3": 0,
+      "C4": 18,
+      "C5": 18
+    },
+    "C5": {
+      "C0": 0,
+      "C1": 0,
+      "C2": 1,
+      "C3": 0,
+      "C4": 0,
+      "C5": 27
+    }
+  },
+  "topCentral": [
+    "world_literature",
+    "media_infrastructure",
+    "deconstruction",
+    "affect",
+    "globalization",
+    "canon",
+    "digital_platform",
+    "semiotics",
+    "text",
+    "environmental_justice",
+    "reader_reception",
+    "form"
+  ],
+  "topBridges": [
+    "world_literature",
+    "deconstruction",
+    "affect",
+    "canon",
+    "late_capitalism",
+    "postmodernism",
+    "subaltern",
+    "power_knowledge",
+    "structural_relation",
+    "hermeneutics",
+    "capitalist_realism",
+    "hegemony"
+  ],
+  "cohortMeta": {
+    "C0": {
+      "short": "理论前史",
+      "years": "1840–1879",
+      "title": "现代文论的概念母体",
+      "summary": "无意识、符号系统、谱系学、时间性与人文学科自主，为20世纪文论提供基本问题与方法资源。",
+      "keywords": [
+        "无意识",
+        "符号系统",
+        "谱系学",
+        "时间性",
+        "文化记忆"
+      ]
+    },
+    "C1": {
+      "short": "第一队列",
+      "years": "1880–1899",
+      "title": "大战与革命／形式、自律与总体性",
+      "summary": "在一战、革命与现代主义冲击中，文学形式、陌生化、总体性和技术复制成为核心问题。",
+      "keywords": [
+        "形式自主",
+        "陌生化",
+        "总体性",
+        "现代主义",
+        "技术复制"
+      ]
+    },
+    "C2": {
+      "short": "第二队列",
+      "years": "1900–1919",
+      "title": "总体战争与流亡／主体、解释与结构",
+      "summary": "战争、法西斯主义和流亡经验推动主体、意识形态、解释学、结构关系和文化工业的理论化。",
+      "keywords": [
+        "主体",
+        "意识形态",
+        "解释学",
+        "结构关系",
+        "文化工业"
+      ]
+    },
+    "C3": {
+      "short": "第三队列",
+      "years": "1920–1939",
+      "title": "战后重建与去殖民／文本、话语与权力",
+      "summary": "战后大学扩张、结构主义及其裂变、去殖民化与六八运动，重塑了文本、话语、权力与接受问题。",
+      "keywords": [
+        "文本",
+        "解构",
+        "话语",
+        "权力／知识",
+        "接受"
+      ]
+    },
+    "C4": {
+      "short": "第四队列",
+      "years": "1940–1959",
+      "title": "六八余波与文化政治／差异、身份与身体",
+      "summary": "民权、女性主义、后殖民和新自由主义转型，使差异、身份、身体、经典与文化政治成为中心。",
+      "keywords": [
+        "差异政治",
+        "身份",
+        "性别表演性",
+        "身体政治",
+        "经典建构"
+      ]
+    },
+    "C5": {
+      "short": "第五队列",
+      "years": "1960–1979",
+      "title": "全球化与行星危机／媒介、情感、生态与后人类",
+      "summary": "全球化、平台媒介和气候危机推动世界文学、数字人文、后人类、生态与行星尺度研究。",
+      "keywords": [
+        "世界文学",
+        "数字平台",
+        "后人类",
+        "人类世",
+        "环境正义"
+      ]
+    }
+  }
+}

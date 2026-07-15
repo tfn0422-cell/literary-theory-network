@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173a35">
+  <meta name="description" content="以20年出生队列为时间坐标的西方现当代文论概念谱系、网络分析与复习工具。">
+  <title>西方现当代文论概念谱系网络</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">LT</span>
+        <span>
+          <strong>文论概念谱系</strong>
+          <small>Literary Theory Network</small>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开导航" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">首页</a>
+        <a href="#cohorts">代际谱系</a>
+        <a href="#network">概念网络</a>
+        <a href="#concepts">概念辞典</a>
+        <a href="#analysis">网络分析</a>
+        <a href="#about">方法说明</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Western Literary Theory · Conceptual Genealogy</p>
+          <h1>西方现当代文论<br><span>概念谱系网络</span></h1>
+          <p class="hero-lead">
+            以20年出生队列作为稳定时间坐标，把理论概念、历史事件、知识制度和方法转向放进同一张可交互网络。
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#network">进入网络图</a>
+            <a class="btn ghost" href="#cohorts">查看代际框架</a>
+          </div>
+          <div class="hero-note">
+            <span>离线可运行</span>
+            <span>无外部JS依赖</span>
+            <span>适配微信手机端</span>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-orbit" aria-hidden="true">
+            <div class="orbit-ring ring-1"></div>
+            <div class="orbit-ring ring-2"></div>
+            <div class="orbit-ring ring-3"></div>
+            <span class="orbit-node n1">形式</span>
+            <span class="orbit-node n2">结构</span>
+            <span class="orbit-node n3">文本</span>
+            <span class="orbit-node n4">权力</span>
+            <span class="orbit-node n5">身份</span>
+            <span class="orbit-node n6">生态</span>
+            <span class="orbit-center">文论</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip" aria-label="网络统计">
+        <div><strong id="statNodes">—</strong><span>概念节点</span></div>
+        <div><strong id="statEdges">—</strong><span>关系边</span></div>
+        <div><strong id="statCommunities">—</strong><span>网络社群</span></div>
+        <div><strong id="statDictionary">—</strong><span>辞典校准节点</span></div>
+      </section>
+
+      <section class="section" id="cohorts">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Generational Framework</p>
+            <h2>代际谱系</h2>
+          </div>
+          <p>20年区间只是“出生队列坐标”；真正的理论世代由形成期经验、知识场域、学术网络与共同问题共同验证。</p>
+        </div>
+        <div class="cohort-timeline" id="cohortTimeline"></div>
+      </section>
+
+      <section class="section network-section" id="network">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Interactive Network</p>
+            <h2>概念网络</h2>
+          </div>
+          <p>拖动、缩放、筛选并点击节点，查看概念释义、理论家与直接关系。</p>
+        </div>
+
+        <div class="network-toolbar">
+          <label>
+            <span>布局</span>
+            <select id="layoutSelect">
+              <option value="genealogy">代际谱系</option>
+              <option value="force">关系网络</option>
+            </select>
+          </label>
+          <label>
+            <span>着色</span>
+            <select id="colorSelect">
+              <option value="cohort">出生队列</option>
+              <option value="category">节点类型</option>
+              <option value="community">网络社群</option>
+            </select>
+          </label>
+          <label class="search-field">
+            <span>搜索</span>
+            <input id="networkSearch" placeholder="输入概念或理论家">
+          </label>
+          <button class="tool-btn" id="resetView">重置视图</button>
+          <button class="tool-btn" id="exportPng">导出PNG</button>
+        </div>
+
+        <div class="network-layout">
+          <aside class="filter-panel">
+            <div class="filter-group">
+              <h3>出生队列</h3>
+              <div id="cohortFilters"></div>
+            </div>
+            <div class="filter-group">
+              <h3>节点类型</h3>
+              <div id="categoryFilters"></div>
+            </div>
+            <div class="filter-group">
+              <h3>关系类型</h3>
+              <div id="relationFilters"></div>
+            </div>
+            <div class="filter-group options">
+              <h3>显示</h3>
+              <label><input type="checkbox" id="showLabels"> 全部标签</label>
+              <label><input type="checkbox" id="dictionaryOnly"> 仅辞典校准</label>
+              <label><input type="checkbox" id="showArrows" checked> 方向箭头</label>
+            </div>
+          </aside>
+
+          <div class="canvas-card">
+            <canvas id="networkCanvas"></canvas>
+            <div class="canvas-help">滚轮缩放 · 空白处拖动 · 节点可拖拽</div>
+            <div class="tooltip" id="networkTooltip"></div>
+            <div class="canvas-zoom">
+              <button id="zoomIn">＋</button>
+              <button id="zoomOut">－</button>
+              <button id="fitView">◎</button>
+            </div>
+          </div>
+
+          <aside class="detail-panel" id="detailPanel">
+            <div class="empty-detail">
+              <span class="detail-icon">◎</span>
+              <h3>选择一个概念节点</h3>
+              <p>点击网络中的节点，即可查看它在代际谱系中的位置、相关理论家与概念关系。</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="concepts">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Concept Index</p>
+            <h2>概念辞典</h2>
+          </div>
+          <p>按照队列、类型和关键词检索概念，适合复习和面试前快速定位。</p>
+        </div>
+        <div class="concept-controls">
+          <input id="conceptSearch" placeholder="搜索概念、英文别名或理论家">
+          <select id="conceptCohort"><option value="all">全部队列</option></select>
+          <select id="conceptCategory"><option value="all">全部类型</option></select>
+        </div>
+        <div class="concept-grid" id="conceptGrid"></div>
+      </section>
+
+      <section class="section analysis-section" id="analysis">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Network Analysis</p>
+            <h2>网络分析</h2>
+          </div>
+          <p>中心性指标只描述本网络中的结构位置，不等于概念在整个学术史中的绝对重要性。</p>
+        </div>
+        <div class="analysis-grid">
+          <article class="analysis-card">
+            <h3>高介数概念</h3>
+            <p>经常连接原本相对分离的概念群，是最适合用作复习“桥梁”的节点。</p>
+            <ol id="centralList"></ol>
+          </article>
+          <article class="analysis-card">
+            <h3>跨代桥梁</h3>
+            <p>与多个出生队列发生直接联系，能够显示理论资源如何跨时代重组。</p>
+            <ol id="bridgeList"></ol>
+          </article>
+          <article class="analysis-card matrix-card">
+            <h3>跨队列关系矩阵</h3>
+            <p>行表示来源队列，列表示目标队列，数值为有向关系边数量。</p>
+            <div class="table-wrap"><table id="cohortMatrix"></table></div>
+          </article>
+          <article class="analysis-card takeaway-card">
+            <h3>当前网络呈现的主干</h3>
+            <blockquote>
+              形式与现代经验 → 结构与主体危机 → 文本、话语与权力 → 身份、身体与文化政治 → 全球流通、媒介基础设施与生态尺度
+            </blockquote>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="about-grid">
+          <div>
+            <p class="eyebrow">Methodology</p>
+            <h2>方法说明</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              本网站以20年出生队列建立清晰的时间坐标，再用形成期经验、知识制度、学术网络和共同问题识别更具解释力的“现实思想世代”。
+            </p>
+            <p>
+              节点包括理论概念、核心问题、方法转向、历史条件与知识制度；关系边分为继承／发展、反拨／批判、转向／扩展、历史／制度触发、构成／互释。
+            </p>
+            <p>
+              Cuddon《文学术语与文学理论辞典》第五版被用作受控词表、英文别名和部分互见关系的校准来源，其余关系依据理论史逻辑进行人工编码。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>西方现当代文论概念谱系网络</strong>
+        <span>面向学科基础学习、文艺学面试与理论史复习</span>
+      </div>
+      <a href="#home">返回顶部 ↑</a>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
